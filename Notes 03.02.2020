@@ -1,0 +1,12 @@
+- peer to peer chatroom 
+- centralized peer directory 
+- directory : user nickname, user host name, host ip address, protocol port (contains the chatting server), popularity rating, nickname of the chatroom owner 
+- one user can join one chatroom 
+- cant run own chat room if joined one 
+- p2p chat-client 
+    - client of the directory server (obtain who is online) 
+    - client of a chat server 
+- online message is udp
+- server listens to a fixed port
+- creates a TCP socket 
+- p2p chat server 
